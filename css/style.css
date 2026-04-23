@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1{
+    font-size: 2.027rem;
+}
+
+h2{
+    font-size: 1.802rem;
+}
+
+h3{
+    font-size: 1.266rem;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+header img{
+    width: 130px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 0.2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 1rem;
+}
+
+#images-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#images-top img{
+    width: 100%;
+}
+
+#images-top img:nth-child(1){
+    border-radius: 1%;
+}
+
+#images-top img:nth-child(2),
+#images-top img:nth-child(3),
+#images-top img:nth-child(4){
+    width: 31%;
+    margin-top: 0.8rem;
+    border-radius: 3%;
+}
+
+#sweetheart h1{
+    font-weight: normal;
+}
+
+#sweetheart h3{
+    margin-bottom: 0;
+}
+
+#sweetheart p:nth-of-type(1){
+    margin-top: 0;
+}
+
+#sweetheart button{
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+#behind{
+    background-color: #f8fafc;
+    margin: 2.5rem 0 0;
+    padding: 1rem 0 3rem;
+}
+
+#behind h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#reviews{
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0 1rem;
+}
+
+#reviews h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#reviews p{
+    margin-left: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+#try{
+    padding: 2rem 0;;
+}
+
+#try .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+#try h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    grid-column: 1 / 3;
+}
+
+#try .flavour{
+    background-color: #f8fafc;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#images-bottom img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px){
+
+header div{
+    margin-top: 0.8rem;
+}
+
+header img{
+    width: 170px;
+}
+
+#images-top{
+    margin-top: 0;
+}
+
+#images-top img:nth-child(1){
+    border-radius: 1%;
+}
+
+#images-top img:nth-child(1),
+#images-top img:nth-child(2),
+#images-top img:nth-child(3),
+#images-top img:nth-child(4){
+    width: 49%;
+    margin-top: 0.8rem;
+    border-radius: 1%;
+}
+
+#behind h2{
+    margin-bottom: 0.2rem;
+}
+
+#behind .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+#behind h2{
+    grid-column: 1 / 3;
+}
+
+#reviews h2{
+    margin-bottom: 1rem;
+}
+
+#reviews .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+}
+
+#reviews h2{
+    grid-column: 1 / 4;
+}
+
+#try{
+    padding: 2rem 0 3rem
+}
+
+#try .container{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+#try h2{
+    grid-column: 1 / 5;
+}
+
+footer{
+    font-size: 1rem;
+}
+}
+
+@media (min-width: 960px){
+
+#hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#sweetheart h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+header div{
+    padding-top: 0.8rem;
+}
+}
